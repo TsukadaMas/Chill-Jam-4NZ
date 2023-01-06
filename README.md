@@ -21,4 +21,3 @@ Salman Choudhry -  https://ca.linkedin.com/in/salman-choudhry-218b69174?original
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>

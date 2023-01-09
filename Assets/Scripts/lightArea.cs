@@ -10,6 +10,8 @@ public class lightArea : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             Instantiate(LightPrefab, collision.transform.position, Quaternion.identity);
+            collision.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+            collision.gameObject.GetComponent<PlayerMovement>().inMovement = false;
         }
     }
 

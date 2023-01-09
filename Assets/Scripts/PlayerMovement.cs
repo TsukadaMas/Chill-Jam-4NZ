@@ -13,6 +13,9 @@ public class PlayerMovement : MonoBehaviour
 
     public float movementForce = 5f;
 
+    [System.NonSerialized]
+    public bool inMovement;
+
     void Start()
     {
         rb.GetComponent<Rigidbody2D>();
@@ -24,8 +27,9 @@ public class PlayerMovement : MonoBehaviour
     {
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         location.transform.position = mousePos;
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && !inMovement)
         {
+            inMovement = true;
             Vector2 direction = new Vector2(transform.position.x, transform.position.y) - mousePos;
             rb.AddForce(direction.normalized * movementForce, ForceMode2D.Impulse);
         }

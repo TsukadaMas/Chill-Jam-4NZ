@@ -776,6 +776,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: 1bitfireboy_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043ba19a18910b8449dc709516c369e1
+      internalID: -1120119353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1bitfireboy_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6b2cebc43071a49a23b636063e307f
+      internalID: 795338073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1bitfireboy_34
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 162
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfdd00ce5817d24889be01b96f26ffe
+      internalID: -257793491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1bitfireboy_35
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 162
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29580cf4938d89743baaa2e83af16bd5
+      internalID: -1060861801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -790,12 +874,14 @@ TextureImporter:
       1bitfireboy_2: 772800724
       1bitfireboy_10: 492843398
       1bitfireboy_14: 386989135
+      1bitfireboy_33: 795338073
       1bitfireboy_0: 323616562
       1bitfireboy_11: -581647371
       1bitfireboy_13: -169302786
       1bitfireboy_15: -1366323588
       1bitfireboy_22: 808842253
       1bitfireboy_9: 982573196
+      1bitfireboy_34: -257793491
       1bitfireboy_8: -1120119353
       1bitfireboy_17: -608788538
       1bitfireboy_32: -632037714
@@ -810,6 +896,7 @@ TextureImporter:
       1bitfireboy_24: 1198399375
       1bitfireboy_26: 1990628059
       1bitfireboy_7: 2120175623
+      1bitfireboy_35: -1060861801
       1bitfireboy_1: -1894373916
       1bitfireboy_21: -746134180
       1bitfireboy_28: 426753903

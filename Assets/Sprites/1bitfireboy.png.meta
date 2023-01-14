@@ -822,12 +822,12 @@ TextureImporter:
       name: 1bitfireboy_34
       rect:
         serializedVersion: 2
-        x: 148
-        y: 162
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 147
+        y: 161
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -843,12 +843,12 @@ TextureImporter:
       name: 1bitfireboy_35
       rect:
         serializedVersion: 2
-        x: 165
-        y: 162
-        width: 5
-        height: 8
+        x: 164
+        y: 161
+        width: 7
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -856,6 +856,153 @@ TextureImporter:
       bones: []
       spriteID: 29580cf4938d89743baaa2e83af16bd5
       internalID: -1060861801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1bitfireboy_36
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 177
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dd8ed5d5eaed84c9902585cd088a9d
+      internalID: 641573469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1bitfireboy_37
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 163
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08397e21c7b0c1a4fb0f52c71a934e82
+      internalID: 912814070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1bitfireboy_38
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 161
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd88e5c54afaa04eb690ea4f787b7dd
+      internalID: -681701443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1bitfireboy_39
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 146
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e602a90abe628409b3846f52aa4379
+      internalID: -548306434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1bitfireboy_40
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 146
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00811bcc4a9f2c34f964ed6f0acb2f3a
+      internalID: -112337041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1bitfireboy_41
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 145
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308e412bab94af14380e92c2dcd7a0d7
+      internalID: -343991297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1bitfireboy_42
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944a5c5a7227408479dcdd51e4d524e9
+      internalID: 1146891671
       vertices: []
       indices: 
       edges: []
@@ -873,9 +1020,27 @@ TextureImporter:
     nameFileIdTable:
       1bitfireboy_2: 772800724
       1bitfireboy_10: 492843398
+      1bitfireboy_39: -548306434
+      1bitfireboy_41: -343991297
+      1bitfireboy_0: 323616562
+      1bitfireboy_17: -608788538
+      1bitfireboy_32: -632037714
+      1bitfireboy_16: -482470775
+      1bitfireboy_18: -417922203
+      1bitfireboy_23: -1556269852
+      1bitfireboy_3: -574524651
+      1bitfireboy_31: 502913088
+      1bitfireboy_7: 2120175623
+      1bitfireboy_35: -1060861801
+      1bitfireboy_1: -1894373916
+      1bitfireboy_21: -746134180
+      1bitfireboy_28: 426753903
+      1bitfireboy_4: -184366452
+      1bitfireboy_37: 912814070
+      1bitfireboy_20: -1754107880
+      1bitfireboy_40: -112337041
       1bitfireboy_14: 386989135
       1bitfireboy_33: 795338073
-      1bitfireboy_0: 323616562
       1bitfireboy_11: -581647371
       1bitfireboy_13: -169302786
       1bitfireboy_15: -1366323588
@@ -883,30 +1048,19 @@ TextureImporter:
       1bitfireboy_9: 982573196
       1bitfireboy_34: -257793491
       1bitfireboy_8: -1120119353
-      1bitfireboy_17: -608788538
-      1bitfireboy_32: -632037714
-      1bitfireboy_16: -482470775
-      1bitfireboy_18: -417922203
-      1bitfireboy_23: -1556269852
       1bitfireboy_29: -1591708941
-      1bitfireboy_3: -574524651
       1bitfireboy_12: 812717806
-      1bitfireboy_31: 502913088
+      1bitfireboy_42: 1146891671
       1bitfireboy_25: -259439866
       1bitfireboy_24: 1198399375
       1bitfireboy_26: 1990628059
-      1bitfireboy_7: 2120175623
-      1bitfireboy_35: -1060861801
-      1bitfireboy_1: -1894373916
-      1bitfireboy_21: -746134180
-      1bitfireboy_28: 426753903
       1bitfireboy_19: 23303619
-      1bitfireboy_4: -184366452
       1bitfireboy_27: -411023521
+      1bitfireboy_38: -681701443
       1bitfireboy_5: 855786392
       1bitfireboy_6: -1402068445
-      1bitfireboy_20: -1754107880
       1bitfireboy_30: 498087010
+      1bitfireboy_36: 641573469
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

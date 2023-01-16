@@ -1007,6 +1007,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: 1bitfireboy_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f68f795e40f57b4386832cb359be718
+      internalID: -1981723113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1024,6 +1045,7 @@ TextureImporter:
       1bitfireboy_41: -343991297
       1bitfireboy_0: 323616562
       1bitfireboy_17: -608788538
+      1bitfireboy_43: -1981723113
       1bitfireboy_32: -632037714
       1bitfireboy_16: -482470775
       1bitfireboy_18: -417922203

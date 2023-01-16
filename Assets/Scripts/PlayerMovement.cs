@@ -40,12 +40,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2 lookDir = mousePos - rb.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-        directionIndicator.transform.rotation = Quaternion.AngleAxis(angle, new Vector3(0, 0, 1));//angle;
-        //if (Input.GetButtonDown("Fire1"))
-        //{
-        //    Vector2 direction = new Vector2(transform.position.x, transform.position.y) - mousePos;
-        //    rb.AddForce(direction.normalized * movementForce, ForceMode2D.Impulse);
-        //}
+        directionIndicator.transform.rotation = Quaternion.AngleAxis(angle, new Vector3(0, 0, 1)); //angle
     }
 
     void OnDrawGizmos()

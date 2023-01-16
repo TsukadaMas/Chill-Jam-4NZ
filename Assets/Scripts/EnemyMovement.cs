@@ -28,7 +28,6 @@ public class EnemyMovement : MonoBehaviour {
     void FixedUpdate()
     {
         var move = _moveVector * _moveSpeed;
-
         _rb.MovePosition(_rb.position + move * Time.deltaTime);
     }
 
@@ -37,6 +36,10 @@ public class EnemyMovement : MonoBehaviour {
         if (collision.gameObject.tag == "Wall") {
             _moveScalar *= -1;
             SetMove(_moveScalar);
+        }
+
+        if (collision.gameObject.tag == "Player") {
+            collision.gameObject.GetComponent<PlayerMovement>().Respawn();
         }
     }
 

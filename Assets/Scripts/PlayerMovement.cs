@@ -16,10 +16,11 @@ public class PlayerMovement : MonoBehaviour
     [System.NonSerialized]
     public bool inMovement;
 
+    [SerializeField] private Transform _respawnLocation;
+
     void Start()
     {
         rb.GetComponent<Rigidbody2D>();
-
     }
 
     // Update is called once per frame
@@ -52,6 +53,13 @@ public class PlayerMovement : MonoBehaviour
         Vector3 p2 = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Gizmos.color = Color.red;
         Gizmos.DrawSphere(p2, 0.1F);
+    }
+
+    public void Respawn() { 
+        rb.velocity = new Vector2(0, 0);
+        inMovement = false;
+
+        gameObject.transform.position = _respawnLocation.position;
     }
 
 }

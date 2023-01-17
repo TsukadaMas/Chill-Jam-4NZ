@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -15,12 +16,15 @@ public class PlayerMovement : MonoBehaviour
 
     [System.NonSerialized]
     public bool inMovement;
+    
+    private Vector3 _respawnLocation;
 
-    [SerializeField] private Transform _respawnLocation;
+    public UnityEvent onThrow;
 
     void Start()
     {
         rb.GetComponent<Rigidbody2D>();
+        _respawnLocation = transform.position;
     }
 
     // Update is called once per frame
@@ -33,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
             inMovement = true;
             Vector2 direction = new Vector2(transform.position.x, transform.position.y) - mousePos;
             rb.AddForce(direction.normalized * movementForce, ForceMode2D.Impulse);
+            onThrow.Invoke();
         }
     }
 
@@ -54,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(0, 0);
         inMovement = false;
 
-        gameObject.transform.position = _respawnLocation.position;
+        gameObject.transform.position = _respawnLocation;
     }
 
 }

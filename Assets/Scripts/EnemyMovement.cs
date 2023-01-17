@@ -18,7 +18,7 @@ public class EnemyMovement : MonoBehaviour {
     private float _moveScalar = 1;
     private Vector2 _moveVector;
 
-    public UnityEvent onHit;
+    [SerializeField] private AudioClip onHitSound;
 
     void Start() {
         if (_startFlipped)
@@ -42,7 +42,7 @@ public class EnemyMovement : MonoBehaviour {
 
         if (collision.gameObject.tag == "Player") {
             collision.gameObject.GetComponent<PlayerMovement>().Respawn();
-            onHit.Invoke();
+            AudioManager.Instance.PlaySound(onHitSound);
         }
     }
 

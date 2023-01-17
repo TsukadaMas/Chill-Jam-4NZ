@@ -141,6 +141,7 @@ MonoBehaviour:
   _moveSpeed: 4
   _patrolAxis: 0
   _startFlipped: 0
+  onHitSound: {fileID: 8300000, guid: 9ebab62fff4486c4ba64aa2cc0371168, type: 3}
 --- !u!1001 &6097991001125169218
 PrefabInstance:
   m_ObjectHideFlags: 0

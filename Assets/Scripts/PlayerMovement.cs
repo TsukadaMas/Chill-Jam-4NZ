@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,12 +20,13 @@ public class PlayerMovement : MonoBehaviour
     
     private Vector3 _respawnLocation;
 
-    public UnityEvent onThrow;
+    [SerializeField] private AudioClip onThrowSound;
 
     void Start()
     {
         rb.GetComponent<Rigidbody2D>();
         _respawnLocation = transform.position;
+        AudioManager.Instance.LowPass(true);
     }
 
     // Update is called once per frame
@@ -37,7 +39,8 @@ public class PlayerMovement : MonoBehaviour
             inMovement = true;
             Vector2 direction = new Vector2(transform.position.x, transform.position.y) - mousePos;
             rb.AddForce(direction.normalized * movementForce, ForceMode2D.Impulse);
-            onThrow.Invoke();
+
+            AudioManager.Instance.PlaySound(onThrowSound);
         }
     }
 

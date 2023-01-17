@@ -67,4 +67,9 @@ public class AudioManager : MonoBehaviour {
     public void ToggleEffectSource() {
         _effectSource.mute = !_effectSource.mute;
     }
+
+    public void LowPass(bool isOn) {
+        AudioLowPassFilter lowpass = GetComponentInChildren<AudioLowPassFilter>();
+        lowpass.enabled = isOn;
+    }
 }

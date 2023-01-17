@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class EnemyMovement : MonoBehaviour {
 
@@ -16,7 +17,8 @@ public class EnemyMovement : MonoBehaviour {
 
     private float _moveScalar = 1;
     private Vector2 _moveVector;
-    
+
+    public UnityEvent onHit;
 
     void Start() {
         if (_startFlipped)
@@ -40,6 +42,7 @@ public class EnemyMovement : MonoBehaviour {
 
         if (collision.gameObject.tag == "Player") {
             collision.gameObject.GetComponent<PlayerMovement>().Respawn();
+            onHit.Invoke();
         }
     }
 

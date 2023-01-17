@@ -7,7 +7,7 @@ public class lightArea : MonoBehaviour
 {
     public GameObject LightPrefab;
 
-    public UnityEvent onLightArea;
+    [SerializeField] private AudioClip onLightSound;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -17,7 +17,7 @@ public class lightArea : MonoBehaviour
             collision.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
             collision.gameObject.GetComponent<PlayerMovement>().inMovement = false;
 
-            onLightArea.Invoke();
+            AudioManager.Instance.PlaySound(onLightSound);
         }
     }
 

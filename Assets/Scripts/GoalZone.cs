@@ -5,12 +5,10 @@ using UnityEngine.Events;
 
 public class GoalZone : MonoBehaviour
 {
-    public UnityEvent onGoal;
-
+    [SerializeField] private AudioClip onGoalSound;
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.tag == "Player") {
-
-            onGoal.Invoke();
+            AudioManager.Instance.PlaySound(onGoalSound);
             GameManager.Instance.LoadNextScene();
         }
     }

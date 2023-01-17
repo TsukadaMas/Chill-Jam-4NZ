@@ -29,10 +29,10 @@ public class PlayerSpriteAnimator : MonoBehaviour
 
         return controller.inMovement == false ? Idle : Moving;
 
-        int LockState(int lockedState, float addedTime) {
-            _lockedUntill = Time.time + addedTime;
-            return lockedState;
-        }
+        //int LockState(int lockedState, float addedTime) {
+        //    _lockedUntill = Time.time + addedTime;
+        //    return lockedState;
+        //}
     }
 
     public bool IsInRange(double value, double bound1, double bound2) => (value >= Math.Min(bound1, bound2) && value <= Math.Max(bound1, bound2));
